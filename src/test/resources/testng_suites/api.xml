@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Carina Demo Tests - API sample tests" skipfailedinvocationcounts="false" junit="false"
+       parallel="tests" data-provider-thread-count="50" annotations="JDK">
+
+    <listeners>
+        <listener class-name="com.qaprosoft.zafira.listener.ZafiraListener"/>
+    </listeners>
+
+    <parameter name="city" value="Saint Petersburg"/>
+    <parameter name="coordinates_lat" value="60.0907368"/>
+    <parameter name="coordinates_lng" value="30.5671662"/>
+
+    <test name="User API tests">
+        <classes>
+            <class name="com.groupm.demo.APITest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite verbose="1" name="Carina Demo Tests - Web tests" skipfailedinvocationcounts="false" junit="false" parallel="methods" data-provider-thread-count="50" annotations="JDK">
+
+  <listeners>
+		<listener class-name="com.qaprosoft.zafira.listener.ZafiraListener"/>
+	</listeners>
+
+	<parameter name="placeName" value="Saint Petersburg"/>
+	<parameter name="coordinates" value="12345.1234"/>
+
+	<test name="GSM arena web tests">
+		<classes>
+			<class name="com.groupm.demo.WebSampleTest" />
+		</classes>
+	</test>
+	
+</suite>

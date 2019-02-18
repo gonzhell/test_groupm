@@ -1,0 +1,496 @@
+{
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+    {
+      "name": "CC-BY-SA",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "name": "ODbL",
+      "url": "https://opendatacommons.org/licenses/odbl/summary/"
+    }
+  ],
+  "rate": {
+    "limit": 2500,
+    "remaining": "regex:[\\d]+",
+    "reset": "regex:[\\d]+"
+  },
+  "results": [
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "59° 56' 19.43520'' N",
+          "lng": "30° 18' 58.42440'' E"
+        },
+        "MGRS": "36VUM5005647628",
+        "Maidenhead": "KO59dw75wh",
+        "Mercator": {
+          "x": 3374787.175,
+          "y": 8349093.483
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?relation=421007#map=17/59.93873/30.31623",
+          "url": "https://www.openstreetmap.org/?mlat=59.93873&mlon=30.31623#map=17/59.93873/30.31623"
+        },
+        "callingcode": 7,
+        "currency": {
+          "alternate_symbols": [
+            "руб.",
+            "р."
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#x20BD;",
+          "iso_code": "RUB",
+          "iso_numeric": 643,
+          "name": "Russian Ruble",
+          "smallest_denomination": 1,
+          "subunit": "Kopeck",
+          "subunit_to_unit": 100,
+          "symbol": "₽",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "🇷🇺",
+        "geohash": "udtscze87m6z2x28c6dd",
+        "qibla": 165.89,
+        "sun": {
+          "rise": {
+            "apparent": 1550381460,
+            "astronomical": 1550373120,
+            "civil": 1550378880,
+            "nautical": 1550376000
+          },
+          "set": {
+            "apparent": 1550415360,
+            "astronomical": 1550423760,
+            "civil": 1550417940,
+            "nautical": 1550420880
+          }
+        },
+        "timezone": {
+          "name": "Europe/Moscow",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": 300,
+          "short_name": "MSK"
+        },
+        "what3words": {
+          "words": "warns.responds.force"
+        },
+        "wikidata": "Q656"
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 60.0907368,
+          "lng": 30.5671662
+        },
+        "southwest": {
+          "lat": 59.7441481,
+          "lng": 30.0433427
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "RU",
+        "ISO_3166-1_alpha-3": "RUS",
+        "_type": "city",
+        "city": "Saint Petersburg",
+        "country": "Russia",
+        "country_code": "ru",
+        "postcode": "190000",
+        "state": "Saint Petersburg",
+        "state_district": "Центральный район"
+      },
+      "confidence": 3,
+      "formatted": "Saint Petersburg, Russia, 190000",
+      "geometry": {
+        "lat": 59.938732,
+        "lng": 30.316229
+      }
+    },
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "59° 57' 38.42604'' N",
+          "lng": "30° 9' 31.15836'' E"
+        },
+        "MGRS": "36VUM4136050437",
+        "Maidenhead": "KO59bx90an",
+        "Mercator": {
+          "x": 3357246.129,
+          "y": 8353962.961
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?relation=337422#map=17/59.96067/30.15866",
+          "url": "https://www.openstreetmap.org/?mlat=59.96067&mlon=30.15866#map=17/59.96067/30.15866"
+        },
+        "callingcode": 7,
+        "currency": {
+          "alternate_symbols": [
+            "руб.",
+            "р."
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#x20BD;",
+          "iso_code": "RUB",
+          "iso_numeric": 643,
+          "name": "Russian Ruble",
+          "smallest_denomination": 1,
+          "subunit": "Kopeck",
+          "subunit_to_unit": 100,
+          "symbol": "₽",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "🇷🇺",
+        "geohash": "udtmn78b5xg0hb3cmtq4",
+        "qibla": 165.66,
+        "sun": {
+          "rise": {
+            "apparent": 1550381520,
+            "astronomical": 1550373120,
+            "civil": 1550378940,
+            "nautical": 1550376000
+          },
+          "set": {
+            "apparent": 1550415360,
+            "astronomical": 1550423760,
+            "civil": 1550418000,
+            "nautical": 1550420880
+          }
+        },
+        "timezone": {
+          "name": "Europe/Moscow",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": 300,
+          "short_name": "MSK"
+        },
+        "what3words": {
+          "words": "parting.riding.cattle"
+        },
+        "wikidata": "Q656"
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 60.2448369,
+          "lng": 30.7594934
+        },
+        "southwest": {
+          "lat": 59.6337832,
+          "lng": 29.4298103
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "RU",
+        "ISO_3166-1_alpha-3": "RUS",
+        "_type": "postcode",
+        "country": "Russia",
+        "country_code": "ru",
+        "postcode": "190000",
+        "state": "Saint Petersburg"
+      },
+      "confidence": 1,
+      "formatted": "Saint Petersburg, Russia, 190000",
+      "geometry": {
+        "lat": 59.9606739,
+        "lng": 30.1586551
+      }
+    },
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "59° 57' 25.00056'' N",
+          "lng": "30° 20' 28.96656'' E"
+        },
+        "MGRS": "36VUM5154249598",
+        "Maidenhead": "KO59ew09xq",
+        "Mercator": {
+          "x": 3377586.931,
+          "y": 8353135.093
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?relation=3288249#map=17/59.95694/30.34138",
+          "url": "https://www.openstreetmap.org/?mlat=59.95694&mlon=30.34138#map=17/59.95694/30.34138"
+        },
+        "callingcode": 7,
+        "currency": {
+          "alternate_symbols": [
+            "руб.",
+            "р."
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#x20BD;",
+          "iso_code": "RUB",
+          "iso_numeric": 643,
+          "name": "Russian Ruble",
+          "smallest_denomination": 1,
+          "subunit": "Kopeck",
+          "subunit_to_unit": 100,
+          "symbol": "₽",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "🇷🇺",
+        "geohash": "udtt46vft2s3w40ze6b6",
+        "qibla": 165.93,
+        "sun": {
+          "rise": {
+            "apparent": 1550381460,
+            "astronomical": 1550373120,
+            "civil": 1550378880,
+            "nautical": 1550376000
+          },
+          "set": {
+            "apparent": 1550415300,
+            "astronomical": 1550423760,
+            "civil": 1550417940,
+            "nautical": 1550420880
+          }
+        },
+        "timezone": {
+          "name": "Europe/Moscow",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": 300,
+          "short_name": "MSK"
+        },
+        "what3words": {
+          "words": "mascot.purses.groom"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 59.9578545,
+          "lng": 30.3435035
+        },
+        "southwest": {
+          "lat": 59.9560375,
+          "lng": 30.3401916
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "RU",
+        "ISO_3166-1_alpha-3": "RUS",
+        "_type": "hotel",
+        "city": "округ Сампсониевское",
+        "country": "Russia",
+        "country_code": "ru",
+        "hotel": "Saint-Petersburg",
+        "house_number": "5/2",
+        "postcode": "194044",
+        "road": "Pirogovskaya embankment",
+        "state": "Saint Petersburg",
+        "state_district": "Vyborgsky District",
+        "suburb": "Vyborg Side"
+      },
+      "confidence": 9,
+      "formatted": "Saint-Petersburg, Pirogovskaya embankment 5/2, Vyborg Side, округ Сампсониевское, Saint Petersburg, Russia, 194044",
+      "geometry": {
+        "lat": 59.9569446,
+        "lng": 30.3413796
+      }
+    },
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "59° 56' 22.08876'' N",
+          "lng": "30° 19' 39.00684'' E"
+        },
+        "MGRS": "36VUM5068847684",
+        "Maidenhead": "KO59dw95hl",
+        "Mercator": {
+          "x": 3376042.069,
+          "y": 8349257.012
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?node=5611293822#map=17/59.93947/30.32750",
+          "url": "https://www.openstreetmap.org/?mlat=59.93947&mlon=30.32750#map=17/59.93947/30.32750"
+        },
+        "callingcode": 7,
+        "currency": {
+          "alternate_symbols": [
+            "руб.",
+            "р."
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#x20BD;",
+          "iso_code": "RUB",
+          "iso_numeric": 643,
+          "name": "Russian Ruble",
+          "smallest_denomination": 1,
+          "subunit": "Kopeck",
+          "subunit_to_unit": 100,
+          "symbol": "₽",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "🇷🇺",
+        "geohash": "udtsfpeudnbkqqkkvw2b",
+        "qibla": 165.9,
+        "sun": {
+          "rise": {
+            "apparent": 1550381460,
+            "astronomical": 1550373120,
+            "civil": 1550378880,
+            "nautical": 1550376000
+          },
+          "set": {
+            "apparent": 1550415360,
+            "astronomical": 1550423760,
+            "civil": 1550417940,
+            "nautical": 1550420880
+          }
+        },
+        "timezone": {
+          "name": "Europe/Moscow",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": 300,
+          "short_name": "MSK"
+        },
+        "what3words": {
+          "words": "readings.copycat.slips"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 59.9395191,
+          "lng": 30.3275519
+        },
+        "southwest": {
+          "lat": 59.9394191,
+          "lng": 30.3274519
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "RU",
+        "ISO_3166-1_alpha-3": "RUS",
+        "_type": "cafe",
+        "cafe": "Saint Petersburg",
+        "city": "Palace District",
+        "country": "Russia",
+        "country_code": "ru",
+        "house_number": "5",
+        "postcode": "190000",
+        "road": "набережная канала Грибоедова",
+        "state": "Saint Petersburg",
+        "state_district": "Центральный район"
+      },
+      "confidence": 9,
+      "formatted": "Saint Petersburg, набережная канала Грибоедова 5, Palace District, Russia, 190000",
+      "geometry": {
+        "lat": 59.9394691,
+        "lng": 30.3275019
+      }
+    },
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "43° 40' 17.09688'' N",
+          "lng": "40° 18' 28.80504'' E"
+        },
+        "MGRS": "37TFJ0544536209",
+        "Maidenhead": "LN03dq61xd",
+        "Mercator": {
+          "x": 4487066.188,
+          "y": 5385217.933
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?relation=4457766#map=17/43.67142/40.30800",
+          "url": "https://www.openstreetmap.org/?mlat=43.67142&mlon=40.30800#map=17/43.67142/40.30800"
+        },
+        "callingcode": 7,
+        "currency": {
+          "alternate_symbols": [
+            "руб.",
+            "р."
+          ],
+          "decimal_mark": ",",
+          "html_entity": "&#x20BD;",
+          "iso_code": "RUB",
+          "iso_numeric": 643,
+          "name": "Russian Ruble",
+          "smallest_denomination": 1,
+          "subunit": "Kopeck",
+          "subunit_to_unit": 100,
+          "symbol": "₽",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "🇷🇺",
+        "geohash": "szu8mnpkktbnxcmk0gxk",
+        "qibla": 181.18,
+        "sun": {
+          "rise": {
+            "apparent": 1550376900,
+            "astronomical": 1550371140,
+            "civil": 1550375160,
+            "nautical": 1550373120
+          },
+          "set": {
+            "apparent": 1550415120,
+            "astronomical": 1550420880,
+            "civil": 1550416860,
+            "nautical": 1550418900
+          }
+        },
+        "timezone": {
+          "name": "Europe/Moscow",
+          "now_in_dst": 0,
+          "offset_sec": 10800,
+          "offset_string": 300,
+          "short_name": "MSK"
+        },
+        "what3words": {
+          "words": "november.abolishes.covers"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 43.6715006,
+          "lng": 40.3082224
+        },
+        "southwest": {
+          "lat": 43.6713278,
+          "lng": 40.307781
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "RU",
+        "ISO_3166-1_alpha-3": "RUS",
+        "_type": "building",
+        "building": "Saint-Petersburg",
+        "city_district": "Адлерский внутригородской район",
+        "country": "Russia",
+        "country_code": "ru",
+        "county": "Resort Town of Sochi (municipal formation)",
+        "postcode": "354392",
+        "region": "Krasnodar Krai",
+        "road": "Olimpiyskaya Street",
+        "state": "South federal district",
+        "suburb": "Rosa Khutor",
+        "village": "Estosadok"
+      },
+      "confidence": 10,
+      "formatted": "Saint-Petersburg, Olimpiyskaya Street, Rosa Khutor, Estosadok, South federal district, Russia, 354392",
+      "geometry": {
+        "lat": 43.6714158,
+        "lng": 40.3080014
+      }
+    }
+  ],
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "twitter": "https://twitter.com/opencagedata"
+  },
+  "thanks": "For using an OpenCage Data API",
+  "timestamp": {
+    "created_http": "Sun, 17 Feb 2019 21:04:31 GMT",
+    "created_unix": 1550437471
+  },
+  "total_results": 5
+}

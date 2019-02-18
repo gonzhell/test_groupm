@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Carina Demo Tests - API sample tests" skipfailedinvocationcounts="false" junit="false"
+       parallel="tests" data-provider-thread-count="50" annotations="JDK">
+
+    <listeners>
+        <listener class-name="com.qaprosoft.zafira.listener.ZafiraListener"/>
+    </listeners>
+
+    <parameter name="query" value="select 111 as res from dual"/>
+    <parameter name="result" value="111"/>
+
+    <test name="User API tests">
+        <classes>
+            <class name="com.groupm.demo.DB"/>
+        </classes>
+    </test>
+
+</suite>
